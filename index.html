@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio : Neeti Kumar</title>
+  <link rel="canonical" href="https://aquaismissi.ng/">
+  <link rel="icon" href="favicon.svg">  
+  <style>
+      @import url('https://fonts.cdnfonts.com/css/century-gothic-paneuropean');
+      @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+      @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300&display=swap');
+      body {
+        margin: 0;
+        font-family: "Merriweather", Georgia, serif;
+        font-size: 22px;
+        background: #000000;
+        color: #ffffff;
+      }
+      ::selection {
+        background-color: #00ff00;
+        color: #000000;
+      }
+      #bg {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        overflow: hidden;
+      }
+      .wrapper {
+        max-width: 700px;
+        padding: 48px;
+      }
+      .one-liner {
+        margin-top: 32px;
+        margin-bottom: 0;
+      }
+      .hero {
+        font-family: "Century Gothic Paneuropean", Georgia, serif;
+        font-size: 50px;
+        margin-top: 0;
+      }
+      .list-entry {
+        font-family: "Fira Code", monospace;
+        font-size: 18px;
+      }
+      .list-pointer {
+        opacity: 0.5;
+      }
+      a {
+        color: #00ff00;
+        text-decoration: none;
+      }
+      a:hover {
+        text-decoration: underline;
+      }
+    </style>
+</head>
+
+<body>
+  <div id="bg">
+    <div class="wrapper">
+      <h1 class="hero">Hi, I'm Neeti!</h1>
+      <p class="one-liner">A frontend / software developer.<br>You can find me here —</p>
+
+        <p class="list-entry">
+          <span class="list-pointer">&gt;</span>
+          <span> linkedin:
+            <a href="https://www.linkedin.com/in/neetink47/" aria-label="Linkedin" >/neetink47</a>
+          </span>
+        </p>
+        
+        <p class="list-entry">
+          <span class="list-pointer">&gt;</span>
+          <span>github:
+            <a href="https://github.com/neeti-nk47" aria-label="Github" >neeti-nk47</a>
+          </span>
+        </p>
+      
+        <p class="list-entry">
+          <span class="list-pointer">&gt;</span>
+          <span>email:            
+            <a href="mailto: neeti.nk47@gmail.com" aria-label="Email"> neeti.nk47@gmail.com </a>
+          </span>
+        </p>
+
+        <p class="list-entry">
+          <span class="list-pointer">&gt;</span>
+          <span>phone:            
+            <a href="tel: +91 7992434517" aria-label="Phone">+91 7992434517</a>            
+          </span>
+        </p>
+
+      </p>
+      <p class="one-liner">Fresher , looking for work</p>
+    </div>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.globe.min.js"></script>
+  <script>
+      VANTA.GLOBE({
+        el: "#bg",
+        mouseControls: false,
+        touchControls: false,
+        gyroControls: false,
+        minHeight: 200.00,
+        minWidth: 200.00,
+        scale: 1.00,
+        scaleMobile: 1.00,
+        color: 0x009900,
+        color2: 0x000000,
+        size: 0.55,
+        backgroundColor: 0x000000
+      })
+    </script>
+</body>
+</html>
